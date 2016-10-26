@@ -1,0 +1,20 @@
+<h1>Hello from the {{ title }}!</h1>
+<div *ngFor="let d of data | async">
+    <table border=1>
+        <tr>
+            <td>
+                <h3>Id: {{ d.id }}</h3>
+            </td>
+            <td> 
+                <h3>name: {{ d.name }}</h3>
+            </td>
+            <td>
+                <h3>email: {{ d.email }}</h3>
+            </td>
+            <td>
+                <h3>age: {{ d.age }}</h3>
+            </td>
+            <td>
+        </tr>
+    </table> 
+</div>

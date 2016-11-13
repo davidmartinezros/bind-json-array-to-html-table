@@ -1,1 +1,1 @@
-ng build --base-href http://davidmartinezros.com/Angular2/bind-json-array-to-html-table/ --prod --env=prod
+ng build --prod --env=prod
